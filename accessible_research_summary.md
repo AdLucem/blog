@@ -1,29 +1,30 @@
-# An Introductory Primer To My Research
-
+# An Introductory Primer To NLP
 
 To be honest, NLP is not really one field, but rather, several different fields which have all converged on the same problem: Language, how does it work?
-
-This
 
 ## Two Camps Within NLP
 
 ### Language Is A Series of Symbols
 
-This approach looks at language as the same as any other pattern-recognition problem. Language is a sequence of symbols- sounds, words, sentences, whatever- arranged in specific patterns, and we can find out the patterns via machine if we have enough data for a particular language. To put it simply, this is the _statistical approach_ to NLP.
+This approach looks at language as the same as any other pattern-recognition problem. Language is a sequence of symbols- sounds, words, sentences, whatever- arranged in specific patterns, and we can find out the patterns via machine if we have enough data for a particular language. This is called the _statistical approach_ to NLP.
 
-With the creation of computers that have enough processing power to run neural networks, statistical NLP has evolved into neural NLP- using neural nets to recognize patterns in the data.
+With the creation of computers that have enough processing power to run neural networks, *statistical NLP* has evolved into *neural NLP*- using neural nets to recognize patterns in the data. (If you're confused as to what a neural net is, skip down to the `definitions` section!)
 
-### Language Is A Structure that
+### Language Is A Structure With Rules
 
-This is structural linguistics, or as I like to call it, the natural-phenomena approach to linguistics.
+This is structural linguistics, or as I like to call it, the natural-phenomena approach to linguistics. According to this approach, language is not just a series of symbols, but a complex natural phenomena governed by rules (just like any other natural phenomena), and with careful enough study of language, we can:
 
-To put it simply, this is the _rule-
+- find out the rules that govern language
+- Make a working model of how language works
+- Program this model into computers
 
-## Well, They're Not That Separate
+This is called the _rule-based_ approach by people within the field
 
-In practice, of course, the two approaches are not quite separate- both complement the
+### Well, They're Not That Separate
 
-## Why Should You Care?
+In practice, of course, the two approaches are not quite separate. There's a hybrid approach to NLP, which takes the best of both approaches and combines them, but more on that later!
+
+## Why Should You Care About These Approaches?
 
 Well,
 
@@ -47,6 +48,8 @@ Let's put aside the . OpenAI- an AI startup- recently published a paper that, us
 ###
 
 So why am I following this? IIIT has its own GPU cluster- I could collec
+
+(If you're confused as to what a GPU is, once again, skip down to the `Definitions` section!)
 
 Well, first of all, there are flaws with neural
 

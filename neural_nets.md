@@ -8,9 +8,13 @@ In truth, neural networks are pretty damn simple as long as you aren't doing the
 
 Let's start with the founding block of a NN- a perceptron (a "neuron"). A perceptron is a mathematical equation that takes 'n' inputs, runs it through a linear equation, puts the result of that equation through another, nonlinear equation, and gives a single output.
 
-To demonstrate graphically:
+To demonstrate graphically, here's a perceptron that takes in 3 inputs: i1, i2 and i3
 
-[insert image here]
+![perceptron][./perceptron_illustration.jpg]
+
+Here's a brightly colored visual depicting precisely "what" the perceptron equation does with the three inputs:
+
+![perceptron equation][./perceptron_equation_3_inputs.jpg]
 
 The cool thing about a perceptron is, the linear equation that you're running the inputs through, has _coefficients_ - coefficients that don't have to stay the same, but can be changed by the program. Basically, the equation is of the form ax + by + cz + ... = 0 - your basic linear equation, with as many variables as there are inputs- and a, b, c... are the coefficients, or _parameters_ as they're called technically- which can be changed.
 
@@ -28,7 +32,7 @@ So now that we know what a perceptron is, we can easily understand what a neural
 
 A neural set is basically multiple 'layers' of perceptrons, 'stacked' on top of each other such that the output of any one perceptron in the lower layer goes to _all_ the perceptrons in the layer above it.
 
-[insert image here]
+![multilayer perceptron][./mlp_illustration.jpg]
 
 (In practice, this may not always happen- there are neural net alterations like attention and dropout, that sever some of the connections between layers or skip some layers or add some layers. These are mostly domain-specific neural net alterations, and I'll get to them in a bit.)
 
